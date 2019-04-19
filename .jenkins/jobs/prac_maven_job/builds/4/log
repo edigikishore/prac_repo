@@ -1,0 +1,19 @@
+Started by user unknown or anonymous
+Building in workspace /root/.jenkins/workspace/prac_maven_job
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/wakaleo/game-of-life.git # timeout=10
+Fetching upstream changes from https://github.com/wakaleo/game-of-life.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/wakaleo/game-of-life.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision c24bb1ae41bfd5980ce9f0aa8b9a636b920c71fd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c24bb1ae41bfd5980ce9f0aa8b9a636b920c71fd
+Commit message: "Merge pull request #198 from GeraldScott/master"
+ > git rev-list --no-walk c24bb1ae41bfd5980ce9f0aa8b9a636b920c71fd # timeout=10
+[prac_maven_job] $ mvn install
+Build was aborted
+Aborted by [8mha:////4KDPTpk42gyEY5uyQ6FM3dVdTVXPz2YrAMrBN7LHjrRDAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL90rzsvPzyPAATbMabwgAAAA==[0munknown
+Finished: ABORTED

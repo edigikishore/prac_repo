@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='archived-artifact-url-viewer' version='1.1'><l:dependency name='Archived Artifact Url Viewer Plug-In' groupId='org.jenkins-ci.plugins' artifactId='archived-artifact-url-viewer' version='1.1' url='http://wiki.jenkins-ci.org/display/JENKINS/Archived+Artifact+Url+Viewer+Plug-In'><l:description/></l:dependency></l:dependencies>

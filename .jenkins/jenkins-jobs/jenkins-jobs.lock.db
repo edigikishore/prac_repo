@@ -1,0 +1,6 @@
+#FileLock
+#Wed Jan 02 11:59:44 IST 2019
+hostName=kmaster
+id=1680d40e9c286c529078564b4771f216aadbb3fb85c
+method=file
+server=192.168.43.180\:42573
